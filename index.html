@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Atul Gupta | Java Developer</title>
+
+  <style>
+
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      background:#f5f7fb;
+      color:#222;
+      line-height:1.6;
+    }
+
+    .container{
+      width:90%;
+      max-width:1200px;
+      margin:auto;
+    }
+
+    header{
+      background:#0f172a;
+      color:white;
+      padding:60px 0;
+    }
+
+    .hero{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      flex-wrap:wrap;
+      gap:40px;
+    }
+
+    .hero img{
+      width:220px;
+      height:220px;
+      object-fit:cover;
+      border-radius:50%;
+      border:5px solid white;
+      box-shadow:0 5px 15px rgba(0,0,0,0.3);
+    }
+
+    .hero-text{
+      flex:1;
+    }
+
+    .hero-text h1{
+      font-size:48px;
+      margin-bottom:10px;
+    }
+
+    .hero-text h3{
+      font-size:24px;
+      color:#60a5fa;
+      margin-bottom:20px;
+    }
+
+    .hero-text p{
+      margin-bottom:10px;
+      font-size:18px;
+    }
+
+    .contact{
+      margin-top:20px;
+    }
+
+    .contact a{
+      color:white;
+      text-decoration:none;
+      display:block;
+      margin-bottom:8px;
+    }
+
+    section{
+      padding:60px 0;
+    }
+
+    .section-title{
+      font-size:34px;
+      margin-bottom:25px;
+      color:#0f172a;
+      border-bottom:4px solid #2563eb;
+      display:inline-block;
+      padding-bottom:5px;
+    }
+
+    .card{
+      background:white;
+      padding:30px;
+      border-radius:15px;
+      margin-bottom:25px;
+      box-shadow:0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    .experience-item{
+      margin-bottom:30px;
+    }
+
+    .experience-item h3{
+      color:#2563eb;
+      margin-bottom:5px;
+    }
+
+    .experience-item h4{
+      margin-bottom:10px;
+      color:#444;
+    }
+
+    ul{
+      padding-left:20px;
+    }
+
+    ul li{
+      margin-bottom:10px;
+    }
+
+    .skills{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:20px;
+    }
+
+    .skill-box{
+      background:white;
+      padding:20px;
+      border-radius:12px;
+      box-shadow:0 3px 10px rgba(0,0,0,0.1);
+    }
+
+    .skill-box h4{
+      margin-bottom:10px;
+      color:#2563eb;
+    }
+
+    footer{
+      background:#0f172a;
+      color:white;
+      text-align:center;
+      padding:20px;
+    }
+
+    @media(max-width:768px){
+
+      .hero{
+        flex-direction:column;
+        text-align:center;
+      }
+
+      .hero-text h1{
+        font-size:38px;
+      }
+
+    }
+
+  </style>
+
+</head>
+
+<body>
+
+  <!-- HEADER -->
+
+  <header>
+
+    <div class="container hero">
+
+      <img src="pp1.jpeg" alt="Atul Gupta">
+
+      <div class="hero-text">
+
+        <h1>Atul Gupta</h1>
+
+        <h3>Software Engineer | Java | Spring Boot | Microservices</h3>
+
+        <p>
+          4 Years of experience building scalable backend systems, REST APIs and enterprise applications using Java and Spring ecosystem.
+
+        </p>
+
+        <div class="contact">
+
+          <a href="tel:+919044796287">
+            📞 +91-9044796287
+          </a>
+
+          <a href="mailto:atulgupta6910@gmail.com">
+            📧 atulgupta6910@gmail.com
+          </a>
+
+          <a href="https://www.linkedin.com/in/atul-gupta-427185209/" target="_blank">
+            🔗 LinkedIn Profile
+          </a>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </header>
+
+  <!-- SUMMARY -->
+
+  <section>
+
+    <div class="container">
+
+      <h2 class="section-title">Professional Summary</h2>
+
+      <div class="card">
+
+        <p>
+         Experienced Software Engineer with 4 years of expertise in building scalable distributed systems using Java and Spring Boot.
+          Specialized in microservices architecture, event-driven systems with Apache Kafka, and designing high-performance RESTful
+          APIs. Proven ability to optimize system performance, handle high-volume data processing, and deploy applications using Docker and
+          Kubernetes. Adept at working in Agile environments to deliver reliable, scalable, and production-ready solutions.
+        </p>
+
+        <br>
+
+        <p>
+          
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- EXPERIENCE -->
+
+  <section>
+
+    <div class="container">
+
+      <h2 class="section-title">Experience</h2>
+
+      <div class="card experience-item">
+
+        <h3>Senior Software Engineer</h3>
+
+        <h4>Binary Semantics Ltd  | April 2026 - Present</h4>
+
+        <ul>
+
+          <li>
+            Developing and maintaining scalable backend services for the Fleet Robo platform using Java and Spring Boot, supporting
+real-time fleet operations.
+          </li>
+
+          <li>
+            Migrated a monolithic system to a distributed microservices architecture, improving system scalability and reducing
+deployment time by 40%.
+
+          </li>
+
+          <li>
+            Designed and implemented RESTful APIs handling 10K+ daily requests, improving response efficiency and system reliability.
+          </li>
+
+          <li>
+            Implemented Apache Kafka-based event-driven architecture, enabling real-time data streaming of 50K+ sensor events/day
+between Sensor Data Collector and Fleet Stream Engine services.
+          </li>
+
+          <li>
+            Reduced API response time by 25% through performance tuning, query optimization, and efficient resource utilization.
+          </li>
+
+          <li>
+            Containerized applications using Docker and deployed on Kubernetes, enabling horizontal scaling and improving system
+availability to 99.9% uptime.
+          </li>
+
+          <li>
+             Identified and resolved production bottlenecks, improving system throughput and reducing failure rates by 20%.
+          </li>
+
+          <li>
+            • Collaborated in an Agile team to deliver features with faster release cycles and improved code quality through peer reviews.
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="card experience-item">
+
+        <h3>Software Engineer</h3>
+
+        <h4>Vinculum Solution Pvt Ltd | Aug 2022 - March 2026</h4>
+
+        <ul>
+
+          <li>
+            Developed the ListerExportWorkerMicroservice using Spring Boot to efficiently merge large Excel data sheets, enhancing
+scalability and performance in data export operations.
+          </li>
+
+          <li>
+             Developed an Image Transformation Status Screen, Export Profile Screen, Manage API Create/Edit Screen, Merge
+Profile Screen, providing enhanced data visibility and operational transparency for Malabar, Bata, Tata Cliq.
+          </li>
+
+          <li>
+            Automated bulk data export processes through a scheduler, significantly improving efficiency and reducing manual effort.
+          </li>
+
+          <li>
+            Designed and implemented an SKU Creation Approval Screen and a microservice to automate marketplace data imports,
+reducing error-prone manual input.
+          </li>
+
+          <li>
+            Optimized the Channel Price Import and Merge Profile Export workflow with a Scheduler, streamlining data handling
+and improving process reliability.
+          </li>
+          <li>
+ Developed key features such as the Order Rejection Enquiry Screen for Malabar and the FnvQc Create/Edit Screen for
+Swiggy, enhancing order management efficiency.
+
+          </li>
+          <li>
+Improved warehouse management by enhancing the Cycle Count Wave screens (Create/Edit/Enquiry) and automating data
+import/export through schedulers and microservices.
+
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="card experience-item">
+
+        <h3>Software Developer Intern</h3>
+
+        <h4>Vinculum Solution Pvt Ltd | Feb 2022 - Jul 2022</h4>
+
+        <ul>
+
+          <li>
+            Developed inventory management features.
+          </li>
+
+          <li>
+            Created REST APIs using Java and Struts 2.0.
+          </li>
+
+          <li>
+            Designed UI components using HTML, CSS, JavaScript and JSP.
+          </li>
+
+        </ul>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- EDUCATION -->
+
+  <section>
+
+    <div class="container">
+
+      <h2 class="section-title">Education</h2>
+
+      <div class="card">
+
+        <h3>Banaras Hindu University (BHU)</h3>
+
+        <p>
+          MCA - Master of Computer Applications
+        </p>
+
+        <p>
+          2020 - 2022 | CGPA: 8.7
+        </p>
+         
+
+<br>
+
+
+        <h3>BaundelKhand University Jhansi</h3>
+
+        <p>
+          B.Sc - Bachelor of Science
+        </p>
+
+        <p>
+          2016 - 2019 |  68.2%
+        </p>
+<br>
+        <h3>S.B.M. Inter College Rath</h3>
+
+        <p>
+          Intermediate
+        </p>
+
+        <p>
+          2015  - 2016 |  90%
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- PROJECTS -->
+
+  <section>
+
+    <div class="container">
+
+      <h2 class="section-title"> Personal Projects</h2>
+
+      <div class="card">
+
+        <h3>Blog Management System</h3>
+
+        <br>
+
+        <p>
+          Technologies: Java 8, Spring Boot, Spring Security, REST API, MySQL, JSP, Hibernate, Bootstrap, Maven
+        </p>
+
+        <br>
+
+        <ul>
+
+          <li>
+            Developed a blog management system with full CRUD functionality using Spring Boot and RESTful APIs.
+
+          </li>
+
+          <li>
+            Implemented MVC architecture, integrated Hibernate for ORM, and built responsive UI with JSP and Bootstrap.
+
+          </li>
+
+
+        </ul>
+<br>
+<br>
+
+
+        <h3>Product Management System</h3>
+
+        <br>
+
+        <p>
+          Technologies: Java 8, Spring Boot, AWS, RDS Service, REST API, MySQL, JSP, Maven
+        </p>
+
+        <br>
+
+        <ul>
+
+          <li>
+            Built a product management system with CRUD operations using Spring Boot and REST APIs, designed dynamic JSP
+interfaces for inventory management.
+
+          </li>
+
+          <li>
+            Optimized database performance with MySQL and integrated ORM/JDBC, deployed the system on AWS RDS for scalable,
+high-availability database management.
+
+          </li>
+
+
+        </ul>
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- SKILLS -->
+
+  <section>
+
+    <div class="container">
+
+      <h2 class="section-title">Technical Skills</h2>
+
+      <div class="skills">
+
+        <div class="skill-box">
+          <h4>Programming Languages</h4>
+          <p>Java, SQL, NoSQL, JavaScript</p>
+        </div>
+
+        <div class="skill-box">
+          <h4>Frameworks</h4>
+          <p> Spring Boot, Spring Security, Spring MVC, Spring WebFlux, Hibernate, REST API, Microservices, Struts2, Maven</p>
+        </div>
+
+        <div class="skill-box">
+          <h4>Web Technologies</h4>
+          <p> HTML5, CSS3, JS, jQuery, Bootstrap, AJAX, JSP, Thymeleaf</p>
+        </div>
+
+        <div class="skill-box">
+          <h4>Databases & Cloud Services</h4>
+          <p> MySQL, MongoDB, AWS (RDS, S3), Jenkins, Azure Devops</p>
+        </div>
+
+        <div class="skill-box">
+          <h4>Tools</h4>
+          <p> Git, SVN, Postman, Swagger UI, JIRA, WinSCP, Kubernetes(K8S), Redis, Eclipse, STS4, Docker, Kafka</p>
+        </div>
+
+        <div class="skill-box">
+          <h4>Development Methodologies</h4>
+          <p>Agile (Scrum)</p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <section>
+
+    <div class="container">
+
+      <h2 class="section-title"> Certifications & Achievements</h2>
+
+      <div class="card">
+
+        
+
+  
+      
+
+        <ul>
+
+          <li>
+            Java Basic Certification by HackerRank (June 2024).
+
+
+          </li>
+
+          <li>
+            INSPIRE Scholarship for Higher Education (SHE) by DST, awarded to the top 1% of Class 12th board students.
+
+          </li>
+
+
+        </ul>
+
+
+
+        
+
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+
+
+  <!-- FOOTER -->
+
+  <footer>
+
+    <p>
+      © 2026 Atul Gupta | Portfolio Website
+    </p>
+
+  </footer>
+
+</body>
+</html>
